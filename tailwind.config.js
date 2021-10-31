@@ -30,8 +30,15 @@ module.exports = {
         "sky-bg": "url('../images/sky-bg.jpg')",
         sun: "url('../images/sun.png')",
       },
-      padding: {
-        p15: "15%",
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
       },
     },
   },
