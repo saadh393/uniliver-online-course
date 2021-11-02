@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .container {
+    @apply mx-auto w-10/12 lg:w-6/12;
+  }
+
   .section-header-text {
     @apply text-primary text-3xl text-center font-extrabold mb-7  lg:text-5xl;
   }
