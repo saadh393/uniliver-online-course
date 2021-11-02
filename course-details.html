@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/tailwind.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <title>Login | Uniliver Learning Academy</title>
+  </head>
+  <body>
+    <header class="bg-sky-bg bg-cover bg-no-repeat bg-center">
+      <nav class="container flex justify-between py-5">
+        <img class="h-16" src="./src/images/uniliver-logo.png" alt="Uniliver Logo" />
+        <i class="fas fa-bars text-xl text-white"></i>
+      </nav>
+      <section class="container py-14">
+        <img class="mx-auto w-11/12 lg:w-5/12 object-cover object-center border-4" src="./src/images/course-thumbnail.webp" alt="Course Thumbnail" />
+        <h1 class="mx-auto w-11/12 lg:w-5/12 mt-4 text-3xl text-center text-yellowLight font-bold">Java Programming Masterclass for Software Developers</h1>
+        <p class="mx-auto w-11/12 lg:w-5/12 text-center leading-5 my-3 text-gray-300">Learn Java in THis Course and become a computer programmer. Obtain valuable core Java Skills and Java Certification</p>
+        <button class="bg-yellowLight text-primary text-lg font-bold mx-auto block mt-4 py-2 px-10 uppercase">Enroll Now</button>
+      </section>
+    </header>
+    <!--  class="bg-primary sm:bg-yellowDeep md:bg-purpleDeep lg:bg-pinkDeep xl:bg-redDeep 2xl:bg-pasteDeep" -->
+    <main>
+      <!-- Count of Videos, Hours, Resources and Students of the course -->
+      <section class="grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:w-8/12 lg:m-auto">
+        <div class="p-5">
+          <h1 class="text-primary text-6xl font-extrabold text-center">60</h1>
+          <h4 class="uppercase text-gray-500 font-medium text-center text-2xl my-2">Videos</h4>
+        </div>
+        <div class="p-5">
+          <h1 class="text-purpleDeep text-6xl font-extrabold text-center">200</h1>
+          <h4 class="uppercase text-gray-500 font-medium text-center text-2xl my-2">Hours</h4>
+        </div>
+        <div class="p-5">
+          <h1 class="text-redDeep text-6xl font-extrabold text-center">12</h1>
+          <h4 class="uppercase text-gray-500 font-medium text-center text-2xl my-2">Resources</h4>
+        </div>
+        <div class="p-5">
+          <h1 class="text-pasteDeep text-6xl font-extrabold text-center">630</h1>
+          <h4 class="uppercase text-gray-500 font-medium text-center text-2xl my-2">Students</h4>
+        </div>
+      </section>
+
+      <!-- What you will learn Section-->
+      <section class="bg-brand-bg-1 py-20 bg-no-repeat bg-center bg-cover">
+        <h1 class="section-header-text">What You'll Learn ?</h1>
+        <ul class="list-none m-auto w-11/12 md:w-4/6 lg:w-6/12 px-5">
+          <li class="bg-purpleDeep you-learn-items">Learn the core Java skills needed to apply for Java developer positions in just 14 hours.</li>
+          <li class="bg-pasteDeep you-learn-items">Acquire essential java basics for transitioning to the Spring Framework, Java EE, Android development and more.</li>
+          <li class="bg-redDeep you-learn-items">Learn industry "best practices" in Java software development from a professional Java developer</li>
+          <li class="bg-primary you-learn-items">Be able to sit for and pass the Oracle Java Certificate exam if you choose.</li>
+          <li class="bg-pinkDeep you-learn-items">Be able to demonstrate your understanding of Java to future employers.</li>
+        </ul>
+      </section>
+
+      <!-- Course Content/Outline Section -->
+      <section class="bg-primary bg-overlay-2 bg-cover bg-fixed py-10 pb-16 relative">
+        <h1 class="section-header-text text-white">Course Content</h1>
+        <img class="absolute bottom-0 right-0 hidden lg:block lg:w-1/5 z-0" src="./src/images/brand-bg-2.png" alt="" />
+
+        <div class="my-20 mx-auto w-10/12 lg:w-6/12 relative z-1">
+          <div class="mt-4">
+            <div class="flex text-white text-lg md:text-xl lg:text-2xl font-medium space-x-6 cursor-pointer">
+              <span>01</span>
+              <h1 class="flex-grow">Course Introduction</h1>
+              <i class="fas fa-chevron-up cursor-pointers"></i>
+            </div>
+            <ul class="ml-12 mt-1 text-gray-50">
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+            </ul>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex text-white text-lg md:text-xl lg:text-2xl font-medium space-x-6 cursor-pointer">
+              <span>02</span>
+              <h1 class="flex-grow">Course Introduction</h1>
+              <i class="fas fa-chevron-up cursor-pointers"></i>
+            </div>
+            <ul class="ml-12 mt-1 text-gray-50">
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+            </ul>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex text-white text-lg md:text-xl lg:text-2xl font-medium space-x-6 cursor-pointer">
+              <span>03</span>
+              <h1 class="flex-grow">Course Introduction</h1>
+              <i class="fas fa-chevron-up cursor-pointers"></i>
+            </div>
+            <ul class="ml-12 mt-1 text-gray-50">
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+            </ul>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex text-white text-lg md:text-xl lg:text-2xl font-medium space-x-6 cursor-pointer">
+              <span>04</span>
+              <h1 class="flex-grow">Course Introduction</h1>
+              <i class="fas fa-chevron-down cursor-pointers"></i>
+            </div>
+            <ul class="ml-12 mt-1 text-gray-50 hidden">
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+            </ul>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex text-white text-lg md:text-xl lg:text-2xl font-medium space-x-6 cursor-pointer">
+              <span>05</span>
+              <h1 class="flex-grow">Course Introduction</h1>
+              <i class="fas fa-chevron-down cursor-pointers"></i>
+            </div>
+            <ul class="ml-12 mt-1 text-gray-50 hidden">
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+              <li class="flex text-white text-sm md:text-base lg:text-lg space-x-6"><span class="flex-grow">Coursse Introduction </span><span>02:27</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="section-header-text bg-green-100 text-green-600 py-40">Testimonial Should be here</h1>
+      </section>
+
+      <section class="px-4 py-10">
+        <div class="container grid grid-cols-1 md:grid-cols-2 md:space-x-20">
+          <div>
+            <h1 class="text-primary text-lg md:text-xl lg:text-3xl font-bold">Contact us</h1>
+            <p class="text-gray-600 leading-5 text-sm md:text-base lg:text-lg font-normal mt-2 w-3/5">Get in touch with uniliver and specialist teams in our headquaters or find contacts around the world</p>
+          </div>
+
+          <div>
+            <h1 class="text-primary text-lg md:text-xl lg:text-3xl font-bold">Connect with our social media</h1>
+            <p class="text-gray-600 leading-5 text-sm md:text-base lg:text-lg font-normal mt-2 w-3/5">We're always looking to connect with those who share an interest in a sustainable future.</p>
+            <div class="group text-primary mt-2 text-xl lg:text-2xl">
+              <i class="fab fa-facebook mr-4 cursor-pointer hover:text-purpleDeep"></i>
+              <i class="fab fa-instagram mr-4 cursor-pointer hover:text-purpleDeep"></i>
+              <i class="far fa-envelope mr-4 cursor-pointer hover:text-purpleDeep"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-sky-bg bg-cover mt-10 bg-no-repeat bg-center py-14 relative">
+      <img class="absolute w-52 -right-0 transform -top-1/4 lg:-top-3/4" src="./src/images/sun-left.png" alt="Sun Image" />
+      <div class="container grid lg:grid-cols-2 space-y-4">
+        <div class="w-full flex flex-col sm:flex-row lg:flex-row space-y-4 md:space-x-5 items-start lg:items-end">
+          <img class="h-28" src="./src/images/uniliver-logo.png" alt="Uniliver Logo" />
+          <div class="group text-white">
+            <h2 class="font-bold md:text-2xl xl:text-3xl">Uniliver Bangladesh</h2>
+            <p class="text-base text-gray-200 mt-1">This is Uniliver's Global Company Website</p>
+            <p class="text-base text-gray-200 mt-1"><i class="fas fa-phone-alt"></i> (00) 123 456</p>
+            <p class="text-base text-gray-200 mt-1"><i class="fas fa-envelope"></i> example@uniliverbd.com</p>
+          </div>
+        </div>
+        <div class="w-full flex flex-col items-start lg:items-center">
+          <h3 class="text-white uppercase text-center font-bold mt-5 sm:text-xl md:mt-0 lg:text-2xl">Contact Us</h3>
+          <!-- Faccebook, Instagram, Linkedin Social Meida Icons -->
+          <div class="flex space-x-5 mt-4">
+            <a href="#">
+              <img class="w-10" src="./src/svg/facebook.svg" alt="Uniliver on Facebook" />
+            </a>
+            <a href="#">
+              <img class="w-10" src="./src/svg/instagram.svg" alt="Uniliver on Instagram" />
+            </a>
+            <a href="#">
+              <img class="w-10" src="./src/svg/linkedin.svg" alt="Uniliver on Linkedin" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
