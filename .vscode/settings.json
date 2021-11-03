@@ -7,5 +7,6 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "prettier.printWidth": 320
+  "prettier.printWidth": 320,
+  "liveServer.settings.port": 5501
 }
