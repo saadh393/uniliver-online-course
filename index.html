@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./src/css/tailwind.css" />
     <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
-    <title>Login | Uniliver Learning Academy</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>Uniliver Learning Academy</title>
   </head>
   <body>
     <header class="bg-sky-bg bg-cover bg-no-repeat bg-center">
@@ -28,10 +29,10 @@
 
     <main>
       <!-- Changes we Made -->
-      <section class="bg-redDeep py-16">
-        <div class="container lg:flex lg:space-x-10">
+      <section class="bg-redDeep bg-changesWeMade bg-cover bg-no-repeat py-16">
+        <div class="container lg:flex lg:space-x-16">
           <!-- trofee section -->
-          <div class="flex space-x-5 md:block md:relative lg:w-1/2 lg:mt-10">
+          <div class="flex space-x-5 md:block md:relative lg:w-5/12 lg:mt-10">
             <img class="w-6/12 object-contain md:w-5/12 md:mx-auto md:mt-12 lg:w-8/12 lg:mt-0 lg:mr-32" src="./src/images/trofee.png" alt="trofee" />
             <div class="w-full object-contain sm:space-y-10 mx-auto ml-0">
               <div class="my-2 px-2 py-2 flex items-center transition-all bg-white space-x-2 rounded shadow-md md:absolute md:-top-10 md:left-32 lg:left-14">
@@ -57,9 +58,9 @@
               </div>
             </div>
           </div>
-          <!-- Empolyee Counts -->
-          <div class="lg:w-1/2">
-            <h3 class="text-yellowDeep section-header-text text-left mt-10 mb-3 lg:text-3xl">Changes we made</h3>
+          <!-- Content -->
+          <div class="lg:w-5/12 lg:flex lg:flex-col lg:justify-center">
+            <h3 class="text-yellowDeep section-header-text text-left mt-10 mb-3 lg:text-4xl">Changes we made</h3>
             <p class="text-white text-justify leading-relaxed">
               At a global level, we've identified four focus areas for our Equity, Diversity and Inclusion strategy: gender, race and ethnicity, people with disabilities, and LGBTQI+ communities. We're working to address the challenges of these groups' under-representation at all levels of our organisation. However, we
               know that under-representation is not confined to people in these groups alone – so our approach supports each of our markets in identifying who is under-represented or excluded, and why.
@@ -71,32 +72,69 @@
       <!-- Our Courses -->
       <section class="py-16">
         <h3 class="section-header-text">Our Courses</h3>
-        <!-- Cards Container -->
-        <div class="wrapepr">
-          <!-- Card 1 -->
-          <div class="bg-yellowDeep rounded-lg flex mx-auto w-9/12 sm:w-7/12">
-            <!-- Card Content -->
-            <div class="w-8/12 text-primary px-3 py-5">
-              <h3 class="text-xl font-bold leading-tight">Digital Marketing Master Class</h3>
-              <p class="text-sm leading-tight mt-2">Don’t leave your dream career to chance! Learn the simple steps that will help you reach your creative goals with social practice.</p>
-              <h3 class="cursor-pointer mt-10 font-medium uppercase text-base">Learn More <i class="fas fa-chevron-right"></i></h3>
+        <div class="swiper container">
+          <div class="swiper-wrapper">
+            <!-- Card 1 -->
+            <div class="swiper-slide w-11/12 sm:w-7/12 xl:w-5/12 h-64 bg-yellowDeep bg-card-bg bg-cover bg-no-repeat rounded-lg flex mx-auto">
+              <!-- Card Content -->
+              <div class="w-8/12 h-full text-primary px-3 py-5 flex flex-col justify-between">
+                <div class="max-h-44 overflow-hidden">
+                  <h3 class="text-xl font-bold leading-tight">Digital Marketing Master Class</h3>
+                  <p class="text-sm leading-tight mt-2 overflow-ellipsis">Don’t leave your dream career to chance! Learn the simple steps that will help you reach your creative goals with social practice.</p>
+                </div>
+                <h5 class="cursor-pointer font-medium uppercase text-base">Learn More <i class="fas fa-chevron-right"></i></h5>
+              </div>
+              <!-- Card Thumbnail -->
+              <div class="w-4/12">
+                <img class="min-h-full object-cover rounded-tr-lg rounded-br-lg" src="./src/images/course-thumb-2.webp" alt="Digital Marketing Master Class" />
+              </div>
             </div>
-            <!-- Card Thumbnail -->
-            <div class="w-4/12">
-              <img class="min-h-full object-cover rounded-tr-lg rounded-br-lg" src="./src/images/course-thumb.webp" alt="" />
+
+            <!-- Card 2 -->
+            <div class="swiper-slide w-11/12 sm:w-7/12 xl:w-5/12 h-64 bg-yellowDeep bg-card-bg bg-cover bg-no-repeat rounded-lg flex mx-auto">
+              <!-- Card Content -->
+              <div class="w-8/12 h-full text-primary px-3 py-5 flex flex-col justify-between">
+                <div class="max-h-44 overflow-hidden">
+                  <h3 class="text-xl font-bold leading-tight">Digital Marketing Master Class</h3>
+                  <p class="text-sm leading-tight mt-2 overflow-ellipsis">Don’t leave your dream career to chance! Learn the simple steps that will help you reach your creative goals with social practice.</p>
+                </div>
+                <h5 class="cursor-pointer font-medium uppercase text-base">Learn More <i class="fas fa-chevron-right"></i></h5>
+              </div>
+              <!-- Card Thumbnail -->
+              <div class="w-4/12">
+                <img class="min-h-full object-cover rounded-tr-lg rounded-br-lg" src="./src/images/course-thumb-2.webp" alt="Digital Marketing Master Class" />
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="swiper-slide w-11/12 sm:w-7/12 xl:w-5/12 h-64 bg-yellowDeep bg-card-bg bg-cover bg-no-repeat rounded-lg flex mx-auto">
+              <!-- Card Content -->
+              <div class="w-8/12 h-full text-primary px-3 py-5 flex flex-col justify-between">
+                <div class="max-h-44 overflow-hidden">
+                  <h3 class="text-xl font-bold leading-tight">Digital Marketing Master Class</h3>
+                  <p class="text-sm leading-tight mt-2 overflow-ellipsis">Don’t leave your dream career to chance! Learn the simple steps that will help you reach your creative goals with social practice.</p>
+                </div>
+                <h5 class="cursor-pointer font-medium uppercase text-base">Learn More <i class="fas fa-chevron-right"></i></h5>
+              </div>
+              <!-- Card Thumbnail -->
+              <div class="w-4/12">
+                <img class="min-h-full object-cover rounded-tr-lg rounded-br-lg" src="./src/images/course-thumb-2.webp" alt="Digital Marketing Master Class" />
+              </div>
             </div>
           </div>
+
+          <!-- End of Card Container -->
         </div>
         <!-- Controls -->
         <div class="text-primary flex gap-5 items-center my-8 justify-center">
-          <i class="fas fa-chevron-left rounded-full shadow-lg w-8 h-8 bg-gray-50 text-center pt-2 pr-px cursor-pointer transition-colors hover:bg-primary hover:text-white"></i>
+          <i class="swiper-button-prev fas fa-chevron-left rounded-full shadow-lg w-8 h-8 bg-gray-50 text-center pt-2 pr-px cursor-pointer transition-colors hover:bg-primary hover:text-white"></i>
           <div class="mx-3.5">
-            <i class="far fa-circle text-xs cursor-pointer"></i>
+            <i class="swiper-pagination far fa-circle text-xs cursor-pointer"></i>
             <i class="fas fa-circle text-xs cursor-pointer"></i>
             <i class="far fa-circle text-xs cursor-pointer"></i>
             <i class="far fa-circle text-xs cursor-pointer"></i>
           </div>
-          <i class="fas fa-chevron-right rounded-full shadow-lg w-8 h-8 bg-gray-50 text-center pt-2 pl-px cursor-pointer transition-colors hover:bg-primary hover:text-white"></i>
+          <i class="swiper-button-next fas fa-chevron-right rounded-full shadow-lg w-8 h-8 bg-gray-50 text-center pt-2 pl-px cursor-pointer transition-colors hover:bg-primary hover:text-white"></i>
         </div>
       </section>
 
@@ -108,7 +146,7 @@
             <!-- Card 1 -->
             <div class="w-80">
               <img class="transform translate-y-9 translate-x-1 rotate-3" src="./src/images/blog1.jpg" alt="Blog 1" />
-              <div class="bg-pasteDeep pt-12 pb-5 px-4 shadow-md">
+              <div class="bg-pasteDeep bg-card-bg bg-cover bg-no-repeat pt-12 pb-5 px-4 shadow-md">
                 <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
                 <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
                 <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
@@ -117,7 +155,7 @@
             <!-- Card 2 -->
             <div class="w-80">
               <img class="transform translate-y-9 translate-x-1 -rotate-1" src="./src/images/blog1.jpg" alt="Blog 1" />
-              <div class="bg-yellowDeep pt-12 pb-5 px-4 shadow-md">
+              <div class="bg-yellowDeep bg-card-bg bg-cover bg-no-repeat pt-12 pb-5 px-4 shadow-md">
                 <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
                 <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
                 <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
@@ -137,7 +175,7 @@
       </section>
 
       <!-- Word's from Top Mentors -->
-      <section class="bg-primaryLight py-10">
+      <section class="bg-primaryLight bg-changesWeMade bg-cover bg-no-repeat py-10">
         <div class="container flex flex-col md:flex-row items-center space-x-10">
           <div class="container text-center md:w-5/12 lg:w-4/12">
             <h1 class="section-header-text text-white font-medium mb-0 md:text-left lg:font-bold">Words from Top Mentors</h1>
@@ -185,5 +223,62 @@
         </div>
       </div>
     </footer>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+
+    <style>
+      .swiper {
+        height: 256px;
+        padding: 0 20%;
+      }
+    </style>
   </body>
 </html>

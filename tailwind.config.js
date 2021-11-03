@@ -33,6 +33,8 @@ module.exports = {
         "brand-bg-1": "url('../images/brand-bg-1.webp')",
         "overlay-1": "url('../images/overlay-1.png')",
         "overlay-2": "url('../images/overlay-2.webp')",
+        "card-bg": "url('../svg/card-bg.svg')",
+        changesWeMade: "url('../svg/changes-we-made-bg.svg')",
       },
       container: {
         center: true,
