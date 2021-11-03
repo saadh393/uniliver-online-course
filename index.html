@@ -30,9 +30,9 @@
       <!-- Changes we Made -->
       <section class="bg-redDeep py-16">
         <!-- trofee section -->
-        <div class="flex space-x-5 w-10/12 mx-auto">
+        <div class="flex space-x-5 w-10/12 mx-auto sm:justify-around">
           <img class="w-6/12 object-contain" src="./src/images/trofee.png" alt="trofee" />
-          <div class="w- 6/12 object-contain">
+          <div class="w- 6/12 object-contain sm:space-y-10">
             <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md">
               <img class="h-14 object-contain pt-1" src="./src/images/employment-1.png" alt="" />
               <div class="pr-3">
@@ -59,6 +59,7 @@
           </div>
         </div>
 
+        <!-- Empolyee Counts -->
         <div class="container">
           <h3 class="text-yellowDeep section-header-text text-left mt-10 mb-3">Changes we made</h3>
           <p class="text-white text-justify leading-relaxed">
@@ -71,13 +72,17 @@
       <!-- Our Courses -->
       <section class="py-16">
         <h3 class="section-header-text">Our Courses</h3>
-        <div class="wrapepr px-16">
-          <div class="bg-yellowDeep rounded-lg flex">
+        <!-- Cards Container -->
+        <div class="wrapepr">
+          <!-- Card 1 -->
+          <div class="bg-yellowDeep rounded-lg flex mx-auto w-9/12 sm:w-7/12">
+            <!-- Card Content -->
             <div class="w-8/12 text-primary px-3 py-5">
               <h3 class="text-xl font-bold leading-tight">Digital Marketing Master Class</h3>
               <p class="text-sm leading-tight mt-2">Don’t leave your dream career to chance! Learn the simple steps that will help you reach your creative goals with social practice.</p>
               <h3 class="cursor-pointer mt-10 font-medium uppercase text-base">Learn More <i class="fas fa-chevron-right"></i></h3>
             </div>
+            <!-- Card Thumbnail -->
             <div class="w-4/12">
               <img class="min-h-full object-cover rounded-tr-lg rounded-br-lg" src="./src/images/course-thumb.webp" alt="" />
             </div>
@@ -98,34 +103,35 @@
 
       <!-- What's Going On -->
       <section class="py-16 bg-gray-100">
-        <div class="container wrapper flex flex-wrap justify-center">
-          <!-- Card 1 -->
-          <div class="w-80">
-            <img class="transform translate-y-9 translate-x-1 rotate-3" src="./src/images/blog1.jpg" alt="Blog 1" />
-            <div class="bg-pasteDeep pt-12 pb-5 px-4 shadow-md">
-              <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
-              <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
-              <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
+        <div class="container">
+          <div class="section-header-text">What's Going on?</div>
+          <div class="flex flex-wrap justify-center">
+            <!-- Card 1 -->
+            <div class="w-80">
+              <img class="transform translate-y-9 translate-x-1 rotate-3" src="./src/images/blog1.jpg" alt="Blog 1" />
+              <div class="bg-pasteDeep pt-12 pb-5 px-4 shadow-md">
+                <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
+                <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
+                <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
+              </div>
             </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="w-80">
-            <img class="transform translate-y-9 translate-x-1 -rotate-1" src="./src/images/blog1.jpg" alt="Blog 1" />
-            <div class="bg-yellowDeep pt-12 pb-5 px-4 shadow-md">
-              <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
-              <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
-              <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
+            <!-- Card 2 -->
+            <div class="w-80">
+              <img class="transform translate-y-9 translate-x-1 -rotate-1" src="./src/images/blog1.jpg" alt="Blog 1" />
+              <div class="bg-yellowDeep pt-12 pb-5 px-4 shadow-md">
+                <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
+                <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
+                <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
+              </div>
             </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="w-80">
-            <img class="transform translate-y-9 translate-x-1 rotate-3" src="./src/images/blog1.jpg" alt="Blog 1" />
-            <div class="bg-redLight pt-12 pb-5 px-4 shadow-md">
-              <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
-              <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
-              <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
+            <!-- Card 3 -->
+            <div class="w-80">
+              <img class="transform translate-y-9 translate-x-1 rotate-3" src="./src/images/blog1.jpg" alt="Blog 1" />
+              <div class="bg-redLight pt-12 pb-5 px-4 shadow-md">
+                <h3 class="text-primary text-2xl font-bold">Working at Uniliver</h3>
+                <p class="text-gray-800 text-sm leading-tight mt-1 text-justify">Are you passionate about making a difference in people’s lives? We are here to empower you on your journey.</p>
+                <h4 class="text-purpleDeep bg-pasteLight inline-block px-3 py-1 font-medium hover:underline cursor-pointer mt-5">Learn More</h4>
+              </div>
             </div>
           </div>
         </div>
@@ -137,8 +143,8 @@
           <p class="text-center text-sm text-gray-200 mt-2">These are some of the most valuable professional areas to level up your skills. To be at your most effective, try to complete these areas in order.</p>
           <div class="bg-yellowDeep flex mt-6">
             <img class="w-6/12 object-cover object-center" src="./src/images/Alan Jope.jpg" alt="Alan Jope, CEO of Uniliver Limited" />
-            <div class="px-3 py-3 w-7/12 text-center">
-              <p class="text-sm text-gray-800 leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam</p>
+            <div class="px-3 py-3 w-7/12 text-center flex flex-col justify-center">
+              <p class="text-sm sm:text-lg sm:leading-tight text-gray-800 leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam</p>
               <i class="fas fa-quote-right mt-4 text-primary text-lg"></i>
               <h3 class="text-primary text-xl font-bold">Alan Jope</h3>
               <p class="text-xs min-w-mintext-primary">CEO, Uniliver Limited</p>
