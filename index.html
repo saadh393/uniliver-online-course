@@ -29,43 +29,42 @@
     <main>
       <!-- Changes we Made -->
       <section class="bg-redDeep py-16">
-        <!-- trofee section -->
-        <div class="flex space-x-5 w-10/12 mx-auto sm:justify-around">
-          <img class="w-6/12 object-contain" src="./src/images/trofee.png" alt="trofee" />
-          <div class="w- 6/12 object-contain sm:space-y-10">
-            <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md">
-              <img class="h-14 object-contain pt-1" src="./src/images/employment-1.png" alt="" />
-              <div class="pr-3">
-                <h1 class="text-2xl font-bold text-purpleDeep -mt-1">40,000</h1>
-                <p class="text-gray-600 font-medium text-sm -mt-1">Employment</p>
+        <div class="container">
+          <!-- trofee section -->
+          <div class="flex space-x-5 sm:justify-around md:block md:relative">
+            <img class="w-6/12 object-contain md:w-5/12 md:mx-auto md:mt-12" src="./src/images/trofee.png" alt="trofee" />
+            <div class="w- 6/12 object-contain sm:space-y-10">
+              <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md md:absolute md:-top-10 md:left-32">
+                <img class="h-14 object-contain pt-1" src="./src/images/employment-1.png" alt="" />
+                <div class="pr-3">
+                  <h1 class="text-2xl font-bold text-purpleDeep -mt-1">40,000</h1>
+                  <p class="text-gray-600 font-medium text-sm -mt-1">Employment</p>
+                </div>
               </div>
-            </div>
-
-            <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md">
-              <img class="h-14 object-contain pt-1" src="./src/images/employment-2.png" alt="" />
-              <div class="pr-3">
-                <h1 class="text-2xl font-bold text-pasteDeep -mt-1">40,000</h1>
-                <p class="text-gray-600 font-medium text-sm -mt-1">Employment</p>
+              <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md md:absolute md:top-0 md:right-10">
+                <img class="h-14 object-contain pt-1" src="./src/images/employment-2.png" alt="" />
+                <div class="pr-3">
+                  <h1 class="text-2xl font-bold text-pasteDeep -mt-1">40,000</h1>
+                  <p class="text-gray-600 font-medium text-sm -mt-1">Employment</p>
+                </div>
               </div>
-            </div>
-
-            <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md">
-              <img class="h-14 object-contain pt-1" src="./src/images/employment-3.png" alt="" />
-              <div class="pr-3">
-                <h1 class="text-2xl font-bold text-redDeep -mt-1">40,000</h1>
-                <p class="text-gray-600 font-medium text-sm -mt-1">Employment</p>
+              <div class="my-2 px-2 py-2 flex items-center bg-white space-x-2 rounded shadow-md md:absolute md:top-2/3 md:right-14">
+                <img class="h-14 object-contain pt-1" src="./src/images/employment-3.png" alt="" />
+                <div class="pr-3">
+                  <h1 class="text-2xl font-bold text-redDeep -mt-1">40,000</h1>
+                  <p class="text-gray-600 font-medium text-sm -mt-1">Employment</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <!-- Empolyee Counts -->
-        <div class="container">
-          <h3 class="text-yellowDeep section-header-text text-left mt-10 mb-3">Changes we made</h3>
-          <p class="text-white text-justify leading-relaxed">
-            At a global level, we've identified four focus areas for our Equity, Diversity and Inclusion strategy: gender, race and ethnicity, people with disabilities, and LGBTQI+ communities. We're working to address the challenges of these groups' under-representation at all levels of our organisation. However, we
-            know that under-representation is not confined to people in these groups alone – so our approach supports each of our markets in identifying who is under-represented or excluded, and why.
-          </p>
+          <!-- Empolyee Counts -->
+          <div>
+            <h3 class="text-yellowDeep section-header-text text-left mt-10 mb-3">Changes we made</h3>
+            <p class="text-white text-justify leading-relaxed">
+              At a global level, we've identified four focus areas for our Equity, Diversity and Inclusion strategy: gender, race and ethnicity, people with disabilities, and LGBTQI+ communities. We're working to address the challenges of these groups' under-representation at all levels of our organisation. However, we
+              know that under-representation is not confined to people in these groups alone – so our approach supports each of our markets in identifying who is under-represented or excluded, and why.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -105,7 +104,7 @@
       <section class="py-16 bg-gray-100">
         <div class="container">
           <div class="section-header-text">What's Going on?</div>
-          <div class="flex flex-wrap justify-center">
+          <div class="flex flex-wrap justify-center space-x-10">
             <!-- Card 1 -->
             <div class="w-80">
               <img class="transform translate-y-9 translate-x-1 rotate-3" src="./src/images/blog1.jpg" alt="Blog 1" />
@@ -137,11 +136,14 @@
         </div>
       </section>
 
+      <!-- Word's from Top Mentors -->
       <section class="bg-primaryLight py-10">
-        <div class="container">
-          <h1 class="container section-header-text text-white font-medium mb-0">Words from Top Mentors</h1>
-          <p class="text-center text-sm text-gray-200 mt-2">These are some of the most valuable professional areas to level up your skills. To be at your most effective, try to complete these areas in order.</p>
-          <div class="bg-yellowDeep flex mt-6">
+        <div class="container flex flex-col md:flex-row items-center space-x-10">
+          <div class="container text-center md:w-5/12">
+            <h1 class="section-header-text text-white font-medium mb-0 md:text-left">Words from Top Mentors</h1>
+            <p class="text-sm text-gray-200 mt-2 md:text-left">These are some of the most valuable professional areas to level up your skills. To be at your most effective, try to complete these areas in order.</p>
+          </div>
+          <div class="bg-yellowDeep flex mt-6 md:w-7/12">
             <img class="w-6/12 object-cover object-center" src="./src/images/Alan Jope.jpg" alt="Alan Jope, CEO of Uniliver Limited" />
             <div class="px-3 py-3 w-7/12 text-center flex flex-col justify-center">
               <p class="text-sm sm:text-lg sm:leading-tight text-gray-800 leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam</p>
