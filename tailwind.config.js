@@ -1,5 +1,5 @@
 module.exports = {
-  // mode: "",
+  // mode: "jit",
   // purge: ["./*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -43,6 +43,9 @@ module.exports = {
           xl: "5rem",
           "2xl": "6rem",
         },
+      },
+      height: {
+        450: "450px",
       },
     },
   },

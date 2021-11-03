@@ -4,7 +4,7 @@
 
 @layer components {
   .container {
-    @apply mx-auto px-0 py-0 w-10/12 lg:w-6/12;
+    @apply mx-auto px-0 py-0 w-10/12;
   }
 
   .section-header-text {
